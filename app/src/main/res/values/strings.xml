@@ -1,0 +1,35 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tour Guide</string>
+
+    <!-- Category name for Game reserves -->
+    <string name="category_game_reserves">Game Reserves</string>
+
+    <!-- Category name for hotels & restaurants -->
+    <string name="category_hotels_and_restaurants">Hotels &amp; Restaurants</string>
+
+    <!-- Category name for airports -->
+    <string name="category_airports">Airports</string>
+
+    <!-- Category name for railway stations-->
+    <string name="category_rail_stations">Railway stations</string>
+
+    <!-- Category name for accommodations-->
+    <string name="category_accommodations">Accommodations</string>
+
+    <!-- Category name for other utilities-->
+    <string name="category_other_utilities">Other Utilities</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Fragment text for Accommodations-->
+    <string name="location_one_name">Qwetu</string>
+    <string name="location_one_search">accommodations</string>
+
+    <!-- Cities in kenya-->
+    <string name="nairobi">Nairobi</string>
+    <string name="kisumu">Kisumu</string>
+    <string name="kajiado">Kajiado</string>
+
+</resources>

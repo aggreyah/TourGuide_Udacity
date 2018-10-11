@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tour_guide_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyCustomTabLayout"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tour_guide_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/category_hotels_and_restaurants">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/hotels_and_restaurants"-->
+                <!--style="@style/CategoryStyle"-->
+                <!--android:layout_height="@dimen/location_item_height"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:paddingLeft="16dp"-->
+                <!--android:text="@string/category_hotels_and_restaurants"-->
+                <!--android:textStyle="bold" />-->
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/category_accommodation">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/accommodation"-->
+                <!--style="@style/CategoryStyle"-->
+                <!--android:layout_height="@dimen/location_item_height"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:paddingLeft="16dp"-->
+                <!--android:text="@string/category_accommodations"-->
+                <!--android:textStyle="bold" />-->
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/category_utilities">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/utilities"-->
+                <!--style="@style/CategoryStyle"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:text="@string/category_other_utilities" />-->
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/category_train_stations">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/train_stations"-->
+                <!--style="@style/CategoryStyle"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:text="@string/category_rail_stations" />-->
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/category_airports">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/airports"-->
+                <!--style="@style/CategoryStyle"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:text="@string/category_airports" />-->
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/category_game_reserves">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/game_reserves"-->
+                <!--style="@style/CategoryStyle"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:text="@string/category_game_reserves" />-->
+        <!--</FrameLayout>-->
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

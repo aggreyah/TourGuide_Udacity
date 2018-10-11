@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the hotels and restaurants category -->
+    <color name="category_hotels_and_restaurants">#FD8E09</color>
+
+    <!-- Background color for the accommodation category -->
+    <color name="category_accommodation">#379237</color>
+
+    <!-- Background color for the utilities category -->
+    <color name="category_utilities">#8800A0</color>
+
+    <!-- Background color for the train stations category -->
+    <color name="category_train_stations">#16AFCA</color>
+
+    <!-- Background color for the airports category -->
+    <color name="category_airports">#0000ff</color>
+
+    <!-- Background color for the game reserves category -->
+    <color name="category_game_reserves">#00ff00</color>
+</resources>
