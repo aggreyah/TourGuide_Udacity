@@ -22,12 +22,16 @@ public class AirportsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Jkia", "Nairobi",
-                "airports", R.drawable.airports_jkia));
-        locations.add(new Location("Moi", "Mombasa", "airports", R.drawable.airports_moi_international));
-        locations.add(new Location("Kisumu", "Kisumu", "airports", R.drawable.airports_kisumu));
-        locations.add(new Location("Wilson", "Nairobi", "airports", R.drawable.airports_wilson));
-        locations.add(new Location("Eldoret", "Eldoret", "airports", R.drawable.airports_eldoret));
+        locations.add(new Location(getString(R.string.location_airports_jkia), getString(R.string.nairobi),
+                getString(R.string.location_airports_search), R.drawable.airports_jkia));
+        locations.add(new Location(getString(R.string.location_airports_moi), getString(R.string.mombasa),
+                getString(R.string.location_airports_search), R.drawable.airports_moi_international));
+        locations.add(new Location(getString(R.string.location_airports_kisumu), getString(R.string.kisumu),
+                getString(R.string.location_airports_search), R.drawable.airports_kisumu));
+        locations.add(new Location(getString(R.string.location_airports_wilson), getString(R.string.nairobi),
+                getString(R.string.location_airports_search), R.drawable.airports_wilson));
+        locations.add(new Location(getString(R.string.location_airports_eldoret), getString(R.string.eldoret),
+                getString((R.string.location_airports_search)), R.drawable.airports_eldoret));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_airports);
 

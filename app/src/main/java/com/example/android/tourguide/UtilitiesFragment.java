@@ -22,11 +22,13 @@ public class UtilitiesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Postal services", "Nairobi",
-                "postal services", R.drawable.utilities_post_office));
-        locations.add(new Location("Banking services", "Nairobi", "banking", R.drawable.utilities_banks));
-        locations.add(new Location("Sports centers", "Nairobi", "sports centers", R.drawable.utilities_sports));
-        locations.add(new Location("Supermarkets", "Nairobi", "supermarkets", R.drawable.utilities_supermarket));
+        locations.add(new Location(getString(R.string.location_utilities_postal_services), getString(R.string.nairobi),
+                getString(R.string.location_utilities_search_postal), R.drawable.utilities_post_office));
+        locations.add(new Location(getString(R.string.location_utilities_banking_services), getString(R.string.nairobi),
+                getString(R.string.location_utilities_search_banking), R.drawable.utilities_banks));
+        locations.add(new Location(getString(R.string.location_utilities_sports_centers), getString(R.string.nairobi),
+                getString(R.string.location_utilities_search_sports), R.drawable.utilities_sports));
+        locations.add(new Location(getString(R.string.location_utilities_supermarkets), getString(R.string.nairobi), getString(R.string.location_utilities_search_sports), R.drawable.utilities_supermarket));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_utilities);
 

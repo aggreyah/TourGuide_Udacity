@@ -24,12 +24,66 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Fragment text for Accommodations-->
-    <string name="location_one_name">Qwetu</string>
-    <string name="location_one_search">accommodations</string>
+    <string name="location_accommodations_qwetu">Qwetu</string>
+    <string name="location_accommodations_sankara">Sankara</string>
+    <string name="location_accommodations_sarova">Sarova</string>
+    <string name="location_accommodations_serena">Serena</string>
+    <string name="location_accommodations_safari_park">Safari park</string>
+    <string name="location_accommodations_search">accommodations</string>
+
+    <!-- Fragment text for Airports-->
+    <string name="location_airports_wilson">Wilson airport</string>
+    <string name="location_airports_jkia">Jomo Kenyatta international airport</string>
+    <string name="location_airports_moi">Moi internationsl airport</string>
+    <string name="location_airports_kisumu">Kisumu international airport</string>
+    <string name="location_airports_eldoret">Eldoret international airport</string>
+    <string name="location_airports_search">airports</string>
+
+    <!-- Fragment text for Game reserves-->
+    <string name="location_game_reserves_samburu">Samburu game reserve</string>
+    <string name="location_game_reserves_amboseli">Amboseli game reserve</string>
+    <string name="location_game_reserves_maasaai_mara">Maasaai mara game reserve</string>
+    <string name="location_game_reserves_lake_nakuru">Lake nakuru national park</string>
+    <string name="location_game_reserves_tsavo_east">Tsavo east game reserve</string>
+    <string name="location_game_reserves_search">game reserves</string>
+
+    <!-- Fragment text for Hotels-->
+    <string name="location_hotels_intercontinental">Intercontinental hotel</string>
+    <string name="location_hotels_hilton">Hilton hotel</string>
+    <string name="location_hotels_sarova">Sarova hotel</string>
+    <string name="location_hotels_serena">Serena</string>
+    <string name="location_hotels_ranalo">Ranalo</string>
+    <string name="location_hotels_safari_park">Safari park</string>
+    <string name="location_hotels_search">hotels</string>
+
+    <!-- Fragment text for Railways-->
+    <string name="location_railways_mombasa">Mombasa terminus</string>
+    <string name="location_railways_mtito_andei">Mtito andei terminus</string>
+    <string name="location_railways_nairobi">Nairobi terminus</string>
+    <string name="location_railways_voi">Voi terminus</string>
+    <string name="location_railways_search">railways</string>
+
+    <!-- Fragment text for Utilities-->
+    <string name="location_utilities_postal_services">Postal services</string>
+    <string name="location_utilities_banking_services">Banking services</string>
+    <string name="location_utilities_sports_centers">Sports centers</string>
+    <string name="location_utilities_supermarkets">Supermarkets</string>
+    <string name="location_utilities_search_postal">postal services</string>
+    <string name="location_utilities_search_banking">banking services</string>
+    <string name="location_utilities_search_sports">sports centers</string>
+    <string name="location_utilities_search_supermarkets">supermarkets</string>
 
     <!-- Cities in kenya-->
     <string name="nairobi">Nairobi</string>
     <string name="kisumu">Kisumu</string>
     <string name="kajiado">Kajiado</string>
+    <string name="eldoret">Eldoret</string>
+    <string name="mombasa">Mombasa</string>
+    <string name="taita_taveta">Taita taveta</string>
+    <string name="narok">Narok</string>
+    <string name="nakuru">Nakuru</string>
+    <string name="samburu">Samburu</string>
+    <string name="makueni">Makueni</string>
+    <string name="voi">Voi</string>
 
 </resources>

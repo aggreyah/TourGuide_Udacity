@@ -22,11 +22,17 @@ public class RailwaysFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Mombasa terminus", "Mombasa",
-                "railways", R.drawable.railways_mombasa));
-        locations.add(new Location("Mtito andei terminus", "Makueni", "railways", R.drawable.railways_mtito_andei));
-        locations.add(new Location("Nairobi terminus", "Nairobi", "railways", R.drawable.railways_nairobi));
-        locations.add(new Location("Voi terminus", "Voi", "railways", R.drawable.railways_voi));
+        locations.add(new Location(getString(R.string.location_railways_mombasa), getString(R.string.mombasa),
+                getString(R.string.location_railways_search), R.drawable.railways_mombasa));
+        locations.add(new Location(getString(R.string.location_railways_mtito_andei),
+                getString(R.string.makueni), getString(R.string.location_railways_search),
+                R.drawable.railways_mtito_andei));
+        locations.add(new Location(getString(R.string.location_railways_nairobi),
+                getString(R.string.nairobi), getString(R.string.location_railways_search),
+                R.drawable.railways_nairobi));
+        locations.add(new Location(getString(R.string.location_railways_voi),
+                getString(R.string.voi), getString(R.string.location_railways_search),
+                R.drawable.railways_voi));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_train_stations);
 

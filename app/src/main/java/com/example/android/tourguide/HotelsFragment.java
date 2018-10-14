@@ -22,13 +22,19 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Intercontinental", "Nairobi",
-                "hotels", R.drawable.hotels_intercontinental));
-        locations.add(new Location("Hilton", "Nairobi", "hotels", R.drawable.hotels_hilton));
-        locations.add(new Location("Sarova", "Nairobi", "hotels", R.drawable.hotels_sarova));
-        locations.add(new Location("Serena", "Nairobi", "hotels", R.drawable.hotels_serena));
-        locations.add(new Location("Ranalo", "Nairobi", "hotels", R.drawable.hotels_ranalo));
-        locations.add(new Location("Safari park", "Nairobi", "hotels", R.drawable.hotels_safari_park));
+        locations.add(new Location(getString(R.string.location_hotels_intercontinental),
+                getString(R.string.nairobi),
+                getString(R.string.location_hotels_search), R.drawable.hotels_intercontinental));
+        locations.add(new Location(getString(R.string.location_hotels_hilton), getString(R.string.nairobi),
+                getString(R.string.location_hotels_search), R.drawable.hotels_hilton));
+        locations.add(new Location(getString(R.string.location_hotels_sarova), getString(R.string.nairobi),
+                getString(R.string.location_hotels_search), R.drawable.hotels_sarova));
+        locations.add(new Location(getString(R.string.location_hotels_serena), getString(R.string.nairobi),
+                getString(R.string.location_hotels_search), R.drawable.hotels_serena));
+        locations.add(new Location(getString(R.string.location_hotels_ranalo), getString(R.string.nairobi),
+                getString(R.string.location_hotels_search), R.drawable.hotels_ranalo));
+        locations.add(new Location(getString(R.string.location_hotels_safari_park), getString(R.string.nairobi),
+                getString(R.string.location_hotels_search), R.drawable.hotels_safari_park));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_hotels_and_restaurants);
 

@@ -22,14 +22,23 @@ public class AccommodationsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getString(R.string.location_one_name), getString(R.string.nairobi),
-                getString(R.string.location_one_search), R.drawable.accommodations_qwetu));
-        locations.add(new Location("Sankara", "Nairobi", "accommodationss", R.drawable.accommodations_sankara));
-        locations.add(new Location("Sarova", "Nairobi", "hotels", R.drawable.hotels_sarova));
-        locations.add(new Location("Serena", "Nairobi", "hotels", R.drawable.hotels_serena));
-        locations.add(new Location("Safari park", "Nairobi", "hotels", R.drawable.accmmodations_safari_park));
+        locations.add(new Location(getString(R.string.location_accommodations_qwetu), getString(R.string.nairobi),
+                getString(R.string.location_accommodations_search), R.drawable.accommodations_qwetu));
+        locations.add(new Location(getString(R.string.location_accommodations_sankara),
+                getString(R.string.nairobi), getString(R.string.location_accommodations_search),
+                R.drawable.accommodations_sankara));
+        locations.add(new Location(getString(R.string.location_accommodations_sarova),
+                getString(R.string.nairobi), getString(R.string.location_accommodations_search),
+                R.drawable.hotels_sarova));
+        locations.add(new Location(getString(R.string.location_accommodations_serena),
+                getString(R.string.nairobi), getString(R.string.location_accommodations_search),
+                R.drawable.hotels_serena));
+        locations.add(new Location(getString(R.string.location_accommodations_safari_park),
+                getString(R.string.nairobi), getString(R.string.location_accommodations_search),
+                R.drawable.accmmodations_safari_park));
 
-        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_accommodation);
+        LocationAdapter adapter = new LocationAdapter(getActivity(),
+                locations, R.color.category_accommodation);
 
         ListView listView = rootView.findViewById(R.id.list);
 

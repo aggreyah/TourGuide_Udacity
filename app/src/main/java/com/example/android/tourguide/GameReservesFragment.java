@@ -22,12 +22,20 @@ public class GameReservesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Samburu", "Samburu",
-                "game reserves", R.drawable.game_reserves_samburu));
-        locations.add(new Location("Amboseli", "Kajiado", "game reserves", R.drawable.game_reserves_amboseli));
-        locations.add(new Location("Maasai mara", "Narok", "game reserves", R.drawable.game_reserves_maasai_mara));
-        locations.add(new Location("Lake nakuru", "Nakuru", "game reserves", R.drawable.game_reserves_lake_nakuru));
-        locations.add(new Location("Tsavo east", "Taita taveta", "game reserves", R.drawable.game_rserves_tsavo_east));
+        locations.add(new Location(getString(R.string.location_game_reserves_samburu),
+                getString(R.string.samburu),getString(R.string.location_game_reserves_search), R.drawable.game_reserves_samburu));
+        locations.add(new Location(getString(R.string.location_game_reserves_amboseli),
+                getString(R.string.kajiado), getString(R.string.location_game_reserves_search),
+                R.drawable.game_reserves_amboseli));
+        locations.add(new Location(getString(R.string.location_game_reserves_maasaai_mara),
+                getString(R.string.narok), getString(R.string.location_game_reserves_search),
+                R.drawable.game_reserves_maasai_mara));
+        locations.add(new Location(getString(R.string.location_game_reserves_lake_nakuru),
+                getString(R.string.nakuru), getString(R.string.location_game_reserves_search),
+                R.drawable.game_reserves_lake_nakuru));
+        locations.add(new Location(getString(R.string.location_game_reserves_tsavo_east),
+                getString(R.string.taita_taveta), getString(R.string.location_game_reserves_search),
+                R.drawable.game_rserves_tsavo_east));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_game_reserves);
 

@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class LocationFragmentAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[]{"Hotels and restaurants", "Accommodations", "Utilities",
-            "Railway Stations", "Airports", "Game reserves"};
+    private String tabTitles[] = new String[]{"Hotels", "Lodges", "Utility",
+            "Rail", "Air", "Zoos"};
 
     public LocationFragmentAdapter(FragmentManager fm) {
         super(fm);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Height of each location item -->
-    <dimen name="location_item_height">88dp</dimen>
+    <dimen name="location_item_height">52dp</dimen>
     <dimen name="tab_max_width">0dp</dimen>
 </resources>
