@@ -86,4 +86,8 @@
     <string name="makueni">Makueni</string>
     <string name="voi">Voi</string>
 
+    <!-- Map intent text -->
+    <string name="uri_parse">geo:0,0?q=</string>
+    <string name="map_intent_set_package">com.google.android.apps.maps</string>
+
 </resources>

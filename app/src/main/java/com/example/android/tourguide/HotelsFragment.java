@@ -47,9 +47,9 @@ public class HotelsFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Location location = locations.get(position);
                 String queryText = location.getDescriptionForMapSearch();
-                Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + queryText);
-                Intent hotelsMapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                hotelsMapIntent.setPackage("com.google.android.apps.maps");
+                Uri tourGuideMapIntentUri = Uri.parse(getString(R.string.uri_parse) + queryText);
+                Intent hotelsMapIntent = new Intent(Intent.ACTION_VIEW, tourGuideMapIntentUri);
+                hotelsMapIntent.setPackage(getString(R.string.map_intent_set_package));
                 startActivity(hotelsMapIntent);
 
             }
